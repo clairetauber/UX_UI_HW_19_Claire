@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Claire Tauber</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+
+    
+    <header>
+      <img src="images/redlogo.png">
+      <ul>
+        <li><a href="#" class="pageItem">Home</a></li>
+        <li><a href="#" class="pageItem">Work</a></li>
+        <li><a href="#" class="pageItem">About</a></li>
+      </ul>
+      <hr> 
+    </header>
+
+
+    <section class="heroImg">
+      <div class="content">
+        <h1>Hi, I'm <div id="claire">Claire</div> </h1>
+        <p>I'm a UX/UI Designer based in Portland, Oregon. I specialize in designing experiences from ideation to completion. I like to help create seamless experiences for companies, and their users, with my user-centered design methodologies.</p>
+        <button>View All Work</button>
+      </div>
+      <img src="images/profilepicture.png">
+    </section>
+
+
+    <section class="workHeader">
+      <div class="sectionHeader">
+        <h1>Select Work</h1>
+        <div class="myWorkLine"></div>
+      </div>
+    </section>
+
+
+    <section id="categoryGrid">
+      <div id="adoptOB" class="categoryGridArea">
+        <img src="images/adoptimage.png">
+        <div class="heading">Adopt One Block: Website Redesign</div>
+        <p>Working to bridge the gap between this non-profits current website and its potential users, we redesigned the website to better reflect the important work AdoptOneBlock is accomplishing.</p>
+        <button>View Project</button>
+      </div>
+      <div id="smoosh" class="categoryGridArea">
+        <img src="images/smoosh.png">
+        <div class="heading">Smoosh: Mobile App Design</div>
+        <p>Travelers need to have accurate, up to date COVID information because they want to plan COVID concious trips. Smoosh is a streamlined, COVID conscious travel planning app that hels travelers achieve memorable experiences while also keeping them safe.</p>
+        <button>View Project</button>
+      </div>
+      <div id="soundWave" class="categoryGridArea">
+        <img src="images/soundwave.png">
+        <div class="heading">SoundWave: Mobile App Design</div>
+        <p>Users lack a seamless, curated, and digestible audio platform. SoundWave is a streamlined and personalized audio app for busy, on-the-go professionals. As a competitive platform, SoundWave helps individuals further pursue their audio interests.</p>
+        <button>View Project</button>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="viewAll">
+        <button class="longButton">View All Projects</button>
+      </div>
+    </section>
+    <section class="mySkills">
+      <div class="sectionHeader">
+        <h1>Tools</h1>
+        <div class="mySkillsLine"></div>
+      </div>
+      <div class="flexContainer">
+        <div>
+        <img src="images/Vector-1.png">
+        <img src="images/Vector-2.png">
+        <img src="images/Vector-3.png">
+        <img src="images/Vector-4.png">
+        <img src="images/Vector.png">
+        <img src="images/Ellipse 17.png">
+        <img src="images/Ellipse 17.png">
+        <img src="images/Ellipse 17.png">
+        <img src="images/Ellipse 17.png">
+        <img src="images/Ellipse 17.png">
+        <img src="images/Ellipse 17.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="workHeader">
+      <div class="sectionHeader">
+        <h1>Contact Me</h1>
+        <div class="myWorkLine"></div>
+      </div>
+    </section>
+
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="email">Email</label>
+        <input type="text" id="email" name="emailaddress" placeholder="Your email..">
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </form>
+    </div>
+
+    <a class="open-button" popup-open="popup-1" href="javascript:void(0)"> Submit</a>
+       
+      <div class="popup" popup-name="popup-1">
+          <div class="popup-content">
+          <h2>Thank you! </h2>
+      <p>I appreciate you contacting me! I will reach out soon to discuss further.</p>
+      <p>In the meantime, my resume can be viewed <span id="here">here</span> and my LinkedIn can be viewed <span id="here">here.</span></p>
+      <a class="close-button" popup-close="popup-1" href="javascript:void(0)">x</a>
+          </div>
+      </div>  
+
+    <footer>
+      <hr>
+      <ul>
+        <li><a href="#" class="pageItem">Home</a></li>
+        <li><a href="#" class="pageItem">Work</a></li>
+        <li><a href="#" class="pageItem">About</a></li>
+      </ul>
+    </footer>
+
+
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</html>
